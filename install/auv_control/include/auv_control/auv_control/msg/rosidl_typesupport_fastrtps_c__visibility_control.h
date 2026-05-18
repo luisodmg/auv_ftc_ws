@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_control/rosidl_typesupport_fastrtps_c/auv_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_description/ament_cmake_environment_hooks/local_setup.sh

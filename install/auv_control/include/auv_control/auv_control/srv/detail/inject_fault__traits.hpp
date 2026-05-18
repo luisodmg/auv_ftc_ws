@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_control/rosidl_generator_cpp/auv_control/srv/detail/inject_fault__traits.hpp

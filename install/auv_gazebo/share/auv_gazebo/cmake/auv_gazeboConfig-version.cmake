@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_gazebo/ament_cmake_core/auv_gazeboConfig-version.cmake

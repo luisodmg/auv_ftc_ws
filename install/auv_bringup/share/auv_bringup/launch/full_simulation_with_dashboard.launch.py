@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/src/auv_bringup/launch/full_simulation_with_dashboard.launch.py

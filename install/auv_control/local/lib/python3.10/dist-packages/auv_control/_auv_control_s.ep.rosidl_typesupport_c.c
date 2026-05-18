@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_control/rosidl_generator_py/auv_control/_auv_control_s.ep.rosidl_typesupport_c.c

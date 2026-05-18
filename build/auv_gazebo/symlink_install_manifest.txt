@@ -1,0 +1,17 @@
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/worlds/underwater.world
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/launch/gazebo.launch.py
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/package_run_dependencies/auv_gazebo
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/parent_prefix_path/auv_gazebo
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/ament_prefix_path.sh
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/ament_prefix_path.dsv
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/path.sh
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/path.dsv
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.bash
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.sh
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.zsh
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.dsv
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/package.dsv
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/packages/auv_gazebo
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/cmake/auv_gazeboConfig.cmake
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/cmake/auv_gazeboConfig-version.cmake
+/home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/package.xml

@@ -1,0 +1,1 @@
+/home/luiso/auv_ftc_ws/build/auv_control/rosidl_cmake/srv/InjectFault_Response.msg

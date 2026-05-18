@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/worlds/underwater.world
+-- Up-to-date symlink: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/launch/gazebo.launch.py
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/package_run_dependencies/auv_gazebo
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/parent_prefix_path/auv_gazebo
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/path.sh
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/environment/path.dsv
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.bash
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.sh
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.zsh
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/local_setup.dsv
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/package.dsv
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/ament_index/resource_index/packages/auv_gazebo
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/cmake/auv_gazeboConfig.cmake
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/cmake/auv_gazeboConfig-version.cmake
+-- Symlinking: /home/luiso/auv_ftc_ws/install/auv_gazebo/share/auv_gazebo/package.xml

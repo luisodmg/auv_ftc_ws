@@ -4,6 +4,7 @@
 #include "auv_control/ts_fuzzy.hpp"
 
 #include <cmath>
+#include <algorithm>
 
 namespace auv_control {
 
@@ -80,8 +81,18 @@ ControlVec TSFuzzyController::compute(const StateVec & x,
   if (denom < 1e-9) denom = 1.0;          // numerical floor
 
   // Defuzzify: weighted sum of state-feedback contributions.
-  ControlVec u = ControlVec::Zero();
   const StateVec e = x - x_ref;
+
+  // Adaptive Gain Scaling Implementation
+  const double error_norm = e.norm();
+  double alpha = 1.0 + 0.15 * error_norm;
+
+  // Prevent excessively aggressive gains
+  alpha = std::clamp(alpha, 1.0, 3.0);
+
+  ControlVec u = ControlVec::Zero();
+
+
   for (std::size_t j = 0; j < 6; ++j) {
     mu_[j] = omega[j] / denom;
     // State feedback is NEGATIVE of (K * error) — push the state toward

@@ -1,0 +1,9 @@
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/uninstall.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/auv_dashboard_uninstall.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/test.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/edit_cache.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/rebuild_cache.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/list_install_components.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/install.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/install/local.dir
+/home/luiso/auv_ftc_ws/build/auv_dashboard/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/launch/dashboard.launch.py
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/web/dashboard.html
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/ament_index/resource_index/package_run_dependencies/auv_dashboard
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/ament_index/resource_index/parent_prefix_path/auv_dashboard
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/environment/ament_prefix_path.sh
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/environment/ament_prefix_path.dsv
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/environment/path.sh
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/environment/path.dsv
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/local_setup.bash
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/local_setup.sh
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/local_setup.zsh
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/local_setup.dsv
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/package.dsv
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/ament_index/resource_index/packages/auv_dashboard
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/cmake/auv_dashboardConfig.cmake
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/cmake/auv_dashboardConfig-version.cmake
+/home/luiso/auv_ftc_ws/install/auv_dashboard/share/auv_dashboard/package.xml

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from auv_control/srv/InjectFault.srv
+// generated code does not contain a copyright notice
+
+
+module auv_control {
+  module srv {
+    @verbatim (language="comment", text=
+      "Inject an actuator fault into the live simulation." "\n"
+      "thruster_id: 1..4 (paper's u1..u4)" "\n"
+      "fault_factor: 0.0 = total loss, 1.0 = fully healthy" "\n"
+      "fault_type: \"abrupt\" | \"slow\" (slow = linear ramp over 'ramp_seconds')" "\n"
+      "ramp_seconds: time to interpolate from healthy to fault_factor (ignored if abrupt)")
+    struct InjectFault_Request {
+      int32 thruster_id;
+
+      double fault_factor;
+
+      string fault_type;
+
+      double ramp_seconds;
+    };
+    struct InjectFault_Response {
+      boolean accepted;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-15c78617fe064741435a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "auv_control__py",
+					"jsonFile" : "directory-auv_control__py-0820767e74bd2dcf34f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luiso/auv_ftc_ws/build/auv_control/auv_control__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "auv_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_auv_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_auv_control_egg-855822114da2e726b5e9.json",
+					"name" : "ament_cmake_python_build_auv_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_auv_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_auv_control-9af7cd8b233c94159219.json",
+					"name" : "ament_cmake_python_symlink_auv_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control-2aa9952be4cd75b41d48.json",
+					"name" : "auv_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__cpp-4bd8d322e30516ac4b3f.json",
+					"name" : "auv_control__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "auv_control__py::@fd8cc45822489e5294a9",
+					"jsonFile" : "target-auv_control__py-8d351ac17a721b9f64f3.json",
+					"name" : "auv_control__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_generator_c-70d996e087d9b230f794.json",
+					"name" : "auv_control__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_generator_py-b4f70f5d2fc70d1a43d6.json",
+					"name" : "auv_control__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_c-c21d0517add3dccf9908.json",
+					"name" : "auv_control__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_c__pyext-35221c0b803ec17a9213.json",
+					"name" : "auv_control__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_cpp-052582173a4b1cab472f.json",
+					"name" : "auv_control__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_fastrtps_c-03827956237415ffbe81.json",
+					"name" : "auv_control__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_fastrtps_c__pyext-607f04d7973d245d4bd5.json",
+					"name" : "auv_control__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_fastrtps_cpp-9fa8618e0cd26ffd3b89.json",
+					"name" : "auv_control__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_introspection_c-33c0b1d614b57db6f64b.json",
+					"name" : "auv_control__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_introspection_c__pyext-c1df55286a544335e1b2.json",
+					"name" : "auv_control__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control__rosidl_typesupport_introspection_cpp-fd8e9b99453c70260501.json",
+					"name" : "auv_control__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control_core-bc2294f357f673923946.json",
+					"name" : "auv_control_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_control_uninstall-02a2973aad6b1c3b3a80.json",
+					"name" : "auv_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auv_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auv_controller_node-d05ff692ba5bf298823f.json",
+					"name" : "auv_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reference_generator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reference_generator_node-becea033dc05ebc85545.json",
+					"name" : "reference_generator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_allocator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_allocator-6a6938429789723d6dc1.json",
+					"name" : "test_allocator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e38ec6d0c436f0bc1c0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luiso/auv_ftc_ws/build/auv_control",
+		"source" : "/home/luiso/auv_ftc_ws/src/auv_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

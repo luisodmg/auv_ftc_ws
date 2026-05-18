@@ -272,6 +272,38 @@ u3 loss), mirroring the conditions in the paper's Figures 5-11.
 
 ---
 
+
+## T-S fuzzy controller (implementation notes)
+
+This implementation expands on the paper's high-level description with
+some explicit design choices documented here for clarity:
+
+- **Membership functions:** Implemented exactly as Eqs. (18),(19) in
+   the paper. See `M_t1_low/high` and `M_t2_neg/zero/pos` in
+   `auv_control/src/ts_fuzzy.cpp` — e.g. `M_t1_low(t1) = (2 + sin(t1))/5`.
+
+- **Gain synthesis:** The `make_gain()` helper builds a diagonalised
+   feedback template (state order `[u v w q r]`, actuator mapping
+   `u1..u4 = surge, heave, pitch-moment, yaw-moment`). Small
+   cross-coupling is added (`K(3,1) = -0.10 * kr`) to capture mild
+   sway→yaw interaction while keeping the dominant diagonal terms.
+   The six rule gains `K_1..K_6` are instantiated in the
+   `TSFuzzyController` constructor.
+
+- **Defuzzification & safety:** `compute()` multiplies rule weights
+   (products of membership values), normalises them, and forms the
+   control as the weighted sum of `-K_j * (x - x_ref)` contributions. A
+   small numerical floor prevents division by zero when all memberships
+   are vanishingly small.
+
+- **Adaptive gain scaling:** To increase responsiveness for larger
+   errors, an `alpha` factor scales the gains: `alpha = 1.0 + 0.15 * norm(e)`.
+   The factor is clamped to `[1.0, 3.0]` to avoid excessive aggressiveness.
+
+These additions keep the paper's T-S structure while providing a
+deterministic, debuggable implementation suitable for simulation and
+experimental tuning.
+
 ## Important simplifications (honest list)
 
 These are deliberate differences from the paper you should know about:

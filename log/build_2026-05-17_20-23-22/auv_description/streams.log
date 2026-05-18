@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/luiso/auv_ftc_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake /home/luiso/auv_ftc_ws/src/auv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luiso/auv_ftc_ws/install/auv_description
+[0.409s] -- The C compiler identification is GNU 11.4.0
+[1.536s] -- The CXX compiler identification is GNU 11.4.0
+[2.514s] -- Detecting C compiler ABI info
+[2.777s] -- Detecting C compiler ABI info - done
+[2.784s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.785s] -- Detecting C compile features
+[2.786s] -- Detecting C compile features - done
+[2.793s] -- Detecting CXX compiler ABI info
+[3.057s] -- Detecting CXX compiler ABI info - done
+[3.065s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.066s] -- Detecting CXX compile features
+[3.066s] -- Detecting CXX compile features - done
+[3.075s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.230s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.437s] -- Configuring done
+[3.443s] -- Generating done
+[3.444s] -- Build files have been written to: /home/luiso/auv_ftc_ws/build/auv_description
+[3.449s] Invoked command in '/home/luiso/auv_ftc_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake /home/luiso/auv_ftc_ws/src/auv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luiso/auv_ftc_ws/install/auv_description
+[3.451s] Invoking command in '/home/luiso/auv_ftc_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake --build /home/luiso/auv_ftc_ws/build/auv_description -- -j16 -l16
+[3.486s] Invoked command in '/home/luiso/auv_ftc_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake --build /home/luiso/auv_ftc_ws/build/auv_description -- -j16 -l16
+[3.498s] Invoking command in '/home/luiso/auv_ftc_ws/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake --install /home/luiso/auv_ftc_ws/build/auv_description
+[3.504s] -- Install configuration: ""
+[3.505s] -- Execute custom install script
+[3.506s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/urdf/auv.urdf.xacro
+[3.515s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/urdf/rexrov.urdf.xacro
+[3.525s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/launch/display.launch.py
+[3.534s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/rviz/auv.rviz
+[3.543s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/meshes/RexROV_no_props.stl
+[3.551s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/meshes/prop.dae
+[3.560s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/ament_index/resource_index/package_run_dependencies/auv_description
+[3.568s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/ament_index/resource_index/parent_prefix_path/auv_description
+[3.577s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.sh
+[3.585s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/environment/ament_prefix_path.dsv
+[3.593s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/environment/path.sh
+[3.600s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/environment/path.dsv
+[3.609s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/local_setup.bash
+[3.617s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/local_setup.sh
+[3.625s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/local_setup.zsh
+[3.634s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/local_setup.dsv
+[3.642s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/package.dsv
+[3.650s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/ament_index/resource_index/packages/auv_description
+[3.658s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig.cmake
+[3.667s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/cmake/auv_descriptionConfig-version.cmake
+[3.674s] -- Symlinking: /home/luiso/auv_ftc_ws/install/auv_description/share/auv_description/package.xml
+[3.686s] Invoked command in '/home/luiso/auv_ftc_ws/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luiso/dev_ws/install/uf_ros_lib:/home/luiso/dev_ws/install/lite6_move:/opt/ros/humble /usr/bin/cmake --install /home/luiso/auv_ftc_ws/build/auv_description

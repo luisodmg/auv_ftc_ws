@@ -1,0 +1,6 @@
+{
+  "package_name": "auv_control",
+  "non_idl_tuples": [
+    "/home/luiso/auv_ftc_ws/src/auv_control:srv/InjectFault.srv"
+  ]
+}
